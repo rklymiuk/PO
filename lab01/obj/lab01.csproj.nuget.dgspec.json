@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/roman/RiderProjects/lab01/lab01/lab01.csproj": {}
+    "/home/roman/RiderProjects/PO/lab01/lab01.csproj": {}
   },
   "projects": {
-    "/home/roman/RiderProjects/lab01/lab01/lab01.csproj": {
+    "/home/roman/RiderProjects/PO/lab01/lab01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/roman/RiderProjects/lab01/lab01/lab01.csproj",
+        "projectUniqueName": "/home/roman/RiderProjects/PO/lab01/lab01.csproj",
         "projectName": "lab01",
-        "projectPath": "/home/roman/RiderProjects/lab01/lab01/lab01.csproj",
+        "projectPath": "/home/roman/RiderProjects/PO/lab01/lab01.csproj",
         "packagesPath": "/home/roman/.nuget/packages/",
-        "outputPath": "/home/roman/RiderProjects/lab01/lab01/obj/",
+        "outputPath": "/home/roman/RiderProjects/PO/lab01/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/roman/.nuget/NuGet/NuGet.Config"
