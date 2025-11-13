@@ -1,0 +1,15 @@
+/home/roman/RiderProjects/PO/lab03/bin/Debug/net9.0/lab03
+/home/roman/RiderProjects/PO/lab03/bin/Debug/net9.0/lab03.deps.json
+/home/roman/RiderProjects/PO/lab03/bin/Debug/net9.0/lab03.runtimeconfig.json
+/home/roman/RiderProjects/PO/lab03/bin/Debug/net9.0/lab03.dll
+/home/roman/RiderProjects/PO/lab03/bin/Debug/net9.0/lab03.pdb
+/home/roman/RiderProjects/PO/lab03/obj/Debug/net9.0/lab03.GeneratedMSBuildEditorConfig.editorconfig
+/home/roman/RiderProjects/PO/lab03/obj/Debug/net9.0/lab03.AssemblyInfoInputs.cache
+/home/roman/RiderProjects/PO/lab03/obj/Debug/net9.0/lab03.AssemblyInfo.cs
+/home/roman/RiderProjects/PO/lab03/obj/Debug/net9.0/lab03.csproj.CoreCompileInputs.cache
+/home/roman/RiderProjects/PO/lab03/obj/Debug/net9.0/lab03.sourcelink.json
+/home/roman/RiderProjects/PO/lab03/obj/Debug/net9.0/lab03.dll
+/home/roman/RiderProjects/PO/lab03/obj/Debug/net9.0/refint/lab03.dll
+/home/roman/RiderProjects/PO/lab03/obj/Debug/net9.0/lab03.pdb
+/home/roman/RiderProjects/PO/lab03/obj/Debug/net9.0/lab03.genruntimeconfig.cache
+/home/roman/RiderProjects/PO/lab03/obj/Debug/net9.0/ref/lab03.dll
