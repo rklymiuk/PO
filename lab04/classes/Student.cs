@@ -5,12 +5,11 @@ namespace lab04.classes;
 public class Student : Person, IClassWithIList
 {
     private static int nextId = 0;
-    private static int _id;
+    private int _id;
     private int group;
     private int _semester;
     
-    public static int Id
-    {
+    public int Id{
         get => _id;
     }
 
@@ -51,12 +50,21 @@ public class Student : Person, IClassWithIList
     {
         get => Grades.Average(g => g.Value);
     }
-   
-    public IList<FinalGrade> Grades
+
+    public IList<FinalGrade> Grades { get; set; } = new List<FinalGrade>();
+
+    public Student(string firstName, string lastName, DateTime dateOfBirth, string specialization, int semester,int group):base(firstName, lastName, dateOfBirth)
     {
-        get; 
-        set=>
+        Semester = semester;
+        Group = group;
+        Specialization = specialization;
+        _id = nextId++;
         
     }
-    
+    public Student():this(string.Empty, string.Empty, DateTime.MinValue,string.Empty,0,0){}
+
+    public override string ToString()
+    {
+        return base.ToString() + string.Join(", ", Grades);
+    }
 }

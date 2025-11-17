@@ -44,7 +44,7 @@ public class Subject
         get=>_hoursCount;
         set
         {
-            if (HoursCount <= 0)
+            if (HoursCount < 0)
             {
                 throw new ArgumentException("Hours count cannot be less or equal to zero");
             }
@@ -52,7 +52,7 @@ public class Subject
         }
     }
 
-    public Subject(string name, int semester, string specialization, int hoursCount)
+    public Subject(string name, string specialization, int semester, int hoursCount)
     {
         Name = name;
             
@@ -61,7 +61,7 @@ public class Subject
         HoursCount = hoursCount;
     }
 
-    public Subject() : this("noname", 1, "no specialization", 1){}
+    public Subject() : this("noname", "no specialization", 1, 1){}
     public  override  string ToString()
     {
         return $"{Name}/{Specialization}/{Semester}/{HoursCount}";
